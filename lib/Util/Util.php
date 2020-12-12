@@ -187,7 +187,7 @@ abstract class Util
             }
 
             if ($prefix) {
-                if ($k !== null && (!is_int($k) || is_array($v))) {
+                if ($k !== null && !is_int($k)) {
                     $k = $prefix."[".$k."]";
                 } else {
                     $k = $prefix."[]";
