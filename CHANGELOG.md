@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.0.4 - 2020-12-12
+* Fixbug on url encode.
+
 ## 2.0.3 - 2020-06-12
 * Fixbug when not using composer. See issue #2.
 
