@@ -79,8 +79,8 @@ class CurlClient implements ClientInterface
 
     // USER DEFINED TIMEOUTS
 
-    const DEFAULT_TIMEOUT = 80;
-    const DEFAULT_CONNECT_TIMEOUT = 30;
+    const DEFAULT_TIMEOUT = 600;
+    const DEFAULT_CONNECT_TIMEOUT = 60;
 
     private $timeout = self::DEFAULT_TIMEOUT;
     private $connectTimeout = self::DEFAULT_CONNECT_TIMEOUT;
